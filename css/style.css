@@ -171,13 +171,14 @@ body.active{
    left: 0;
 }
 
-.home{
-   display: flex;
-   align-items: center;
-   flex-wrap: wrap;
-   gap:2rem;
-   min-height: 100vh;
-   background-color: #f5f5f5;
+.home {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  min-height: 100vh; /* This ensures the section covers the full height of the viewport */
+  width: 100%; /* Ensures the section covers the full width of the viewport */
+  background-color: #f5f5f5;
 }
 
 .home .image{
