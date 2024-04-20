@@ -186,6 +186,9 @@ section{
    height: 65rem;
    padding:2rem;
    border:var(--border-bold);
+   border-radius: 50%;
+   background-color: #4891a3;
+   padding: 5px;
 }
 
 .home .content{
